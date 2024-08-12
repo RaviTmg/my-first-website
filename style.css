@@ -1,8 +1,28 @@
 
 body {
     background-color: lightblue;
+    text-align: center;
+    font-family: Roboto;
 }
 
-h1 {
-    color: blue;
+img {
+    height: 300px;
+    width: auto;
+}
+
+.flex-container {
+    display: flex;
+    align-items:start;
+    justify-content: center;
+}
+
+.flex-container div{
+    text-align: left;
+}
+
+footer {
+    background-color: #3b3a3a;
+    color: white;
+    font-size: 12px;
+    font-family: Arial;
 }
